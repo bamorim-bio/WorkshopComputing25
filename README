@@ -58,3 +58,4 @@ git log
 git branch log
 git branch -d log
 # ^ I accidentally created a branch named "log". This command above deletes it.
+git merge newfeature
