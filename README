@@ -38,7 +38,23 @@ git diff
 git add README
 git status
 # ^ it will show that the changes are ready to commit. if I didn't do the 'add' it would have not run.
-git checkout main
+git commit -m Added more commands
 git log
-# no commits since they were made in another branch.
-# we have to merge to main
+git blame README
+# ^ you can see the users that edited the file
+git add *
+# ^ to add all the files in the dir
+git branch
+git branch newfeature
+# ^ added another branch
+git checkout newfeature
+# ^ changed to that branch
+git branch
+nano README
+git status
+git add README
+git commit -m Added comments about the branch
+git log
+git branch log
+git branch -d log
+# ^ I accidentally created a branch named "log". This command above deletes it.
