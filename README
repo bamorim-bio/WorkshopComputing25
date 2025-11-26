@@ -59,3 +59,5 @@ git branch log
 git branch -d log
 # ^ I accidentally created a branch named "log". This command above deletes it.
 git merge newfeature
+git remote add origin https://github.com/bamorim-bio/WorkshopComputing25.git
+git push -u origin main
