@@ -38,3 +38,7 @@ git diff
 git add README
 git status
 # ^ it will show that the changes are ready to commit. if I didn't do the 'add' it would have not run.
+git checkout main
+git log
+# no commits since they were made in another branch.
+# we have to merge to main
