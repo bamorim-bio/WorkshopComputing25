@@ -23,6 +23,7 @@ git status
 git add key_EGA_20-11-24.txt.pub
 git commit
 # ^ above it opened a nano file and i added the comments on top of the file.
+
 git log
 touch random.txt
 git add README
@@ -31,6 +32,7 @@ touch .gitignore
 ls -A
 nano .gitignore
 # ^ above I can specify the kind of files that will be ignored in the tracking
+
 git add .gitignore
 git commit -m Add .gitignore and README
 git log
@@ -38,17 +40,22 @@ git diff
 git add README
 git status
 # ^ it will show that the changes are ready to commit. if I didn't do the 'add' it would have not run.
+
 git commit -m Added more commands
 git log
 git blame README
 # ^ you can see the users that edited the file
+
 git add *
 # ^ to add all the files in the dir
+
 git branch
 git branch newfeature
 # ^ added another branch
+
 git checkout newfeature
 # ^ changed to that branch
+
 git branch
 nano README
 git status
@@ -58,6 +65,9 @@ git log
 git branch log
 git branch -d log
 # ^ I accidentally created a branch named "log". This command above deletes it.
+
 git merge newfeature
+
 git remote add origin https://github.com/bamorim-bio/WorkshopComputing25.git
 git push -u origin main
+# ^ Send branch to github and push it.
