@@ -25,3 +25,16 @@ git commit
 # ^ above it opened a nano file and i added the comments on top of the file.
 git log
 touch random.txt
+git add README
+git add README
+touch .gitignore
+ls -A
+nano .gitignore
+# ^ above I can specify the kind of files that will be ignored in the tracking
+git add .gitignore
+git commit -m Add .gitignore and README
+git log
+git diff
+git add README
+git status
+# ^ it will show that the changes are ready to commit. if I didn't do the 'add' it would have not run.
