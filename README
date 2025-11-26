@@ -1,0 +1,27 @@
+# THESE ARE ALL THE COMMANDS WE DID ON 26-11-2025:
+
+git --version
+git config --list
+git config --global core.editor nano
+#....
+git init
+git status
+cp ../key_EGA_20-11-24.txt.pub .
+git status
+git add key_EGA_20-11-24.txt.pub
+git status
+git commit -m Add random file
+git log
+git log --oneline
+cp ../Downloads/20250913_Plate3.xlsx .
+git status
+git add 20250913_Plate3.xlsx
+git commit -m Added another random file
+git log
+nano key_EGA_20-11-24.txt.pub
+git status
+git add key_EGA_20-11-24.txt.pub
+git commit
+# ^ above it opened a nano file and i added the comments on top of the file.
+git log
+touch random.txt
